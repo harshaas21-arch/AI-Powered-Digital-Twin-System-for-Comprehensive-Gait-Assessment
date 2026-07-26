@@ -7,6 +7,24 @@ In this project, we are building a wearable device that continuously acquires se
 
 ## My Role:
 In this project, my role was to mainly design the PCB of the wearable device and to develop a quick prototype of the working concept.
-I have used KiCAD to design the schematic along with placement and routing of all the componenents.
+I have used KiCAD to design the schematic along with placement and routing of all the componenents by following the manufacturer’s datasheets.
+
+### List of Components used:
+* STM32WB55CGU6 - A dual core MCU consisting of (ARM Cortex M0+ and M4) and 49 pin IC package.
+* CD74HC4067 - A 16:1 Multiplexer used for connecting the 16 - FSR sensor insole.
+* MCP73871 - This IC provides a Battery Management System for the wearable, it inputs the supply power from the USB, powers the wearable along with charging the battery.
+* LT1962-3.3V - A Buck converter which converts the 5V supply to 3.3V, which is essential for the proper working of the MCU.
+* LSM6DSO - A 6-axis Inertial Measurement Unit measuring movement in X,Y,Z direction along with Roll, Pitch, Yaw movement.
+* MLPF-WB55 - A low pass filter package required for RF BLE Antenna.
+* RFANT3216120A5T - The Antenna for BLE Transmission.
+* DMG3415U-7 - A PMOS Transistor for power efficient power rails.
+* SWD Tag Connector - For programming the device.
+* USBLC6-2SCC6Y - Connecting USB connector.
+* C-type USB Connector
+* Decoupling Capacitors
+* Resistors
+* LEDs
+* Ferrite Bead and Inductors
+* 32kHz and 32MHz Crystal Oscillator
 
 
