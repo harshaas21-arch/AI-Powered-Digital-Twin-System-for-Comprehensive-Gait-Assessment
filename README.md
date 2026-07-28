@@ -25,6 +25,8 @@ In this project, we are building a wearable device that continuously acquires se
 
 <img width="706" height="774" alt="image" src="https://github.com/user-attachments/assets/b3b88010-c857-4b73-a2b9-34edc16826e3" />
 
+## Methodology:
+<img width="1500" height="687" alt="image" src="https://github.com/user-attachments/assets/3b7eb6a3-ce8e-43ca-bba6-7ca7d616c6ef" />
 
 ## My Role:
 In this project, my role was to mainly design the PCB of the wearable device and to develop a quick prototype of the working concept.
@@ -53,6 +55,10 @@ I have used KiCAD to design the schematic along with placement and routing of al
 
 ### PCB - Back Layer
 <img width="227" height="532" alt="image" src="https://github.com/user-attachments/assets/71c0f53d-45e7-4530-99ae-6f87ee145d9f" />
+
+### Current progress:
+<img width="442" height="804" alt="image" src="https://github.com/user-attachments/assets/65dbf63c-3a74-452d-83e2-bf5905b3130b" />
+
 
 
 
