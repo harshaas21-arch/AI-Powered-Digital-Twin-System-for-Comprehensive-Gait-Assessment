@@ -27,4 +27,13 @@ I have used KiCAD to design the schematic along with placement and routing of al
 * Ferrite Bead and Inductors
 * 32kHz and 32MHz Crystal Oscillator
 
+### PCB - Front Layer
+<img width="247" height="541" alt="image" src="https://github.com/user-attachments/assets/e749c581-a6e0-4621-be9a-57e3c8baffd4" />
+
+### PCB - Back Layer
+<img width="227" height="532" alt="image" src="https://github.com/user-attachments/assets/71c0f53d-45e7-4530-99ae-6f87ee145d9f" />
+
+
+
+
 
