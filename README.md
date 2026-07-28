@@ -1,9 +1,30 @@
 # AI-Powered-Digital-Twin-System-for-Comprehensive-Gait-Assessment
 
+## Problem Statement:
+*Post-surgery rehabilitation requires continuous gait monitoring to assess recovery, detect asymmetry, and prevent fall risk.
+
+*Existing solutions are either laboratory-dependent, expensive, and lack personalized AI-driven analysis for home-based use.
+
+*Standard wearables lack the resolution to measure dynamic plantar pressure distribution, making it impossible to detect compensatory movements or subtle improvements in gait symmetry
+
+<img width="1063" height="484" alt="image" src="https://github.com/user-attachments/assets/3612590a-24e2-4468-9439-d813fcc01deb" />
+
+
 ## Introduction
 Human gait is a complex, rhythmic pattern of locomotion that emerges from the coordinated interaction of the musculoskeletal and central nervous systems. The quantitative study of gait – termed gait analysis – encompasses the measurement of spatial and temporal parameters such as stride length, step cadence, stance and swing phase durations, plantar pressure distribution, joint kinematics, and postural sway. Clinically, gait analysis is indispensable for assessing the progress of patients recovering from orthopaedic interventions such as total knee arthroplasty (TKA) and hip replacement, neurological conditions including Parkinson's disease and post-stroke hemiplegia, and for elderly fall prevention programmes.
 
 In this project, we are building a wearable device that continuously acquires sensor data which is from the 16 FSRs (Force Sensitive Resistors) and a 6 - axis IMU (Inertial Measurement Unit) and sends it over the BLE (Bluetooth Low Energy) to a custom mobile app. The computation is performed by dual core STM32WB55 MCU, which has a ARM Cortex M0+ and M4. A trained model determines the various metrics of the person such as step length, stride length, cadence etc and this data is sent to the Mobile Application.
+
+## Project Objectives:
+*Remote Diagnostics 
+*Injury Prevention
+*Wireless Data Fusion
+*Dynamic Symmetry Scoring
+*Mobile Digital Twin
+*Future Scalability
+
+<img width="706" height="774" alt="image" src="https://github.com/user-attachments/assets/b3b88010-c857-4b73-a2b9-34edc16826e3" />
+
 
 ## My Role:
 In this project, my role was to mainly design the PCB of the wearable device and to develop a quick prototype of the working concept.
