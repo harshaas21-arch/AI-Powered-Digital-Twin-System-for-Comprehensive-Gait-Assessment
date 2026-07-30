@@ -20,3 +20,12 @@ y_train = np.loadtxt(y_train_file)
 
 print("Training data shape: ", x_train.shape)
 print("Labels shape: ", y_train.shape)
+
+# Counting each activity
+
+labels, counts = np.unique(y_train, return_counts=True)
+print("\n Activity Distribution")
+print("------------------------")
+
+for label, count in zip(labels, counts):
+    print(f"Label {int(label)} : {count} samples")
